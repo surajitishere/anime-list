@@ -1,0 +1,128 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #212121;
+    background-image: url("https://wallpapercave.com/wp/wp5882380.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    background-color: rgb(83, 83, 83);
+    width: 37vw;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px;
+}
+#alert{
+    margin: 0px;
+    margin-top: 5px;
+    border-radius: 3px;
+    height: 25px;
+    text-align: center;
+    padding-top: 3px;
+}
+.alert-nice{
+    color: darkgreen;
+    background-color: lightgreen;
+}
+.alert-bad{
+    color: rgb(133, 1, 1);
+    background-color: rgba(250, 135, 135, 0.514);
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 230, 230);
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 50px;
+}
+input{
+    width: 455px;
+    margin: 0px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: rgba(192, 192, 192, 0.959);
+    height: 30px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+#submit{
+    margin: 0px;
+    border: none;
+    margin-right: auto;
+    height: 30px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgba(64, 224, 184, 0.904);
+    width: 85px;
+    transition: 0.5s;
+}   
+
+#submit:hover{
+    background-color: rgb(26, 185, 159);
+    color: white;
+}
+.clearbtn{
+    margin-left: 220px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: none;
+    background-color:  rgb(83, 83, 83);
+    color: rgb(253, 0, 0);
+    font-family: Source Code Pro;
+    font-size: 15px;
+    transition: 0.4s;
+
+}
+.clearbtn:hover{
+    color: rgb(206, 6, 6);;
+}
+article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    height: 30px;
+    margin-top: 10px;
+    width: 545px;
+    transition: 0.5s;
+}
+article:hover{
+    background-color: #2e2e2e86;
+}
+.item{
+    margin-left: 5px;
+    color: white;
+}
+.btn-container{
+    margin-right: 10px;
+}
+.edit-btn,  .del-btn{
+    border: none;
+    background-color: inherit;
+    transition: 0.5s;
+}
+.edit-btn{
+    color: rgb(7, 204, 211);
+}
+.edit-btn:hover{
+    color: rgb(2, 105, 146);
+}
+.del-btn{
+    color: tomato;
+}
+.del-btn:hover{
+    color: rgb(199, 30, 0);
+}
+.grocerycon{
+    display: none;
+}
+.grocerycon-show{
+    display: block;
+}
